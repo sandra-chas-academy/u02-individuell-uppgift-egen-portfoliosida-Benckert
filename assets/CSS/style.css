@@ -58,3 +58,9 @@ ul {
 .presentation {
   flex: 1;
 }
+
+.profile-picture {
+  border: var(--spacing-sm) solid;
+  border-color: var(--color-tiffany-blue);
+  border-radius: 50%;
+}
