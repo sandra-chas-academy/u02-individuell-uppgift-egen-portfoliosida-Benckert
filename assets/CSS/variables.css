@@ -1,10 +1,38 @@
 :root {
   /* COLORS */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  /* From picture */
   --color-cambridge-blue: #7DAD95;
   --color-tiffany-blue: #91D0BD;
   --color-alabaster: #E5E6DE;
+  --color-ivory: #F9FBEE;
   --color-dutch-white: #E3D5A6;
+  /* --color-lion: #BF9474; */
   --color-chamoisee: #907855;
-  --color-black-olive: #302D25;
+  /* --color-black-olive: #302D25; */
   --color-eerie-black: #1D1B15;
+
+  /* From palette */
+  --color-seal-brown: #582F0E;
+  --color-russet: #7F4F24;
+  --color-raw-umber: #936639;
+  --color-lion: #A68A64;
+  --color-khaki: #B6AD90;
+  --color-sage: #C2C5AA;
+  --color-sage-dark: #A4AC86;
+  --color-reseda-green: #656D4A;
+  --color-ebony: #414833;
+  --color-black-olive: #333D29;
+
+  /* GRADIENTS */
+  --gradient-vertical: linear-gradient(0deg, var(--color-eerie-black), var(--color-tiffany-blue));
+
+  /* SPACING */
+  --spacing-xs: 0.75rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 2.5rem;
 }
