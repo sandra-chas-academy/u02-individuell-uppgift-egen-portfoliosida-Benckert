@@ -6,6 +6,11 @@
   <title>Kristoffer Benckert - Projects</title>
 
   <link rel="stylesheet" href="./assets/CSS/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+
   <script src="./assets/JS/main.js" type="module"></script>
   <script src="https://kit.fontawesome.com/5f1a52fccc.js" crossorigin="anonymous"></script>
 </head>
@@ -23,11 +28,12 @@
     <i id="navigationToggle" class="header__right fa-solid fa-lg fa-bars"></i>
 
     <nav id="navigation" class="navigation navigation--mobile hidden">
-      <ul class="navigation__links navigation__links--mobile">
-        <li><a href="#">link 1</a></li>
-        <li><a href="#">link 2</a></li>
-        <li><a href="#">link 3</a></li>
+      <ul id="navigationLinks" class="navigation__links navigation__links--mobile">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#" class="current">Projects</a></li>
+        <li><a href="./about.html">About</a></li>
       </ul>
+
       <div class="navigation__icons">
         <a href="https://twitter.com/" target="_blank">
           <i class="fa-brands fa-twitter"></i>&nbsp;</a>
@@ -39,51 +45,53 @@
     </nav>
   </header>
 
-  <article class="project">
-    <img class="project__image" src="./assets/images/card-img-1.jpg" alt="img-1">
-
-    <section class="project__description">
-      <h3>Project title</h3>
-      <p>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
-      <p>Tech stack: HTML, CSS</p>
-    </section>
-
-    <footer class="project__footer">
-      <a href="#"><i class="project__icon fa-solid fa-link"></i>Live preview</a>
-      <a href="https://github.com/"><i class="project__icon fa-brands fa-github"></i>View code</a>
-    </footer>
-  </article>
-
-  <article class="project">
-    <img class="project__image" src="./assets/images/card-img-2.jpg" alt="img-2">
-
-    <section class="project__description">
-      <h3>Project title</h3>
-      <p>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
-      <p>Tech stack: HTML, CSS</p>
-    </section>
-
-    <footer class="project__footer">
-      <a href="#"><i class="project__icon fa-solid fa-link"></i>Live preview</a>
-      <a href="https://github.com/"><i class="project__icon fa-brands fa-github"></i>View code</a>
-    </footer>
-  </article>
-
-  <article class="project">
-    <img class="project__image" src="./assets/images/card-img-3.jpg" alt="img-3">
-
-    <section class="project__description">
-      <h3>Project title</h3>
-      <p>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
-      <p>Tech stack: HTML, CSS</p>
-    </section>
-
-    <footer class="project__footer">
-      <a href="#"><i class="project__icon fa-solid fa-link"></i>Live preview</a>
-      <a href="https://github.com/"><i class="project__icon fa-brands fa-github"></i>View code</a>
-    </footer>
-  </article>
-
+  <div class="project-container">
+    <article class="project">
+      <img class="project__image" src="./assets/images/card-img-1.jpg" alt="img-1">
+      
+      <section class="project__description">
+        <h3>Project title</h3>
+        <p>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+        <p>Tech stack: HTML, CSS</p>
+      </section>
+      
+      <footer class="project__footer">
+        <a href="#"><i class="project__icon fa-solid fa-link"></i>&nbsp;Live preview</a>
+        <a href="https://github.com/"><i class="project__icon fa-brands fa-github"></i>&nbsp;View code</a>
+      </footer>
+    </article>
+    
+    <article class="project">
+      <img class="project__image" src="./assets/images/card-img-2.jpg" alt="img-2">
+      
+      <section class="project__description">
+        <h3>Project title</h3>
+        <p>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+        <p>Tech stack: HTML, CSS</p>
+      </section>
+      
+      <footer class="project__footer">
+        <a href="#"><i class="project__icon fa-solid fa-link"></i>&nbsp;Live preview</a>
+        <a href="https://github.com/"><i class="project__icon fa-brands fa-github"></i>&nbsp;View code</a>
+      </footer>
+    </article>
+    
+    <article class="project">
+      <img class="project__image" src="./assets/images/card-img-3.jpg" alt="img-3">
+      
+      <section class="project__description">
+        <h3>Project title</h3>
+        <p>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+        <p>Tech stack: HTML, CSS</p>
+      </section>
+      
+      <footer class="project__footer">
+        <a href="#"><i class="project__icon fa-solid fa-link"></i>&nbsp;Live preview</a>
+        <a href="https://github.com/"><i class="project__icon fa-brands fa-github"></i>&nbsp;View code</a>
+      </footer>
+    </article>
+  </div>
+    
   <footer>
     This brilliant website has been developed by<br>
     <span>Kristoffer Benckert</span>

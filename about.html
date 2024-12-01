@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kristoffer Benckert - About</title>
 
   <link rel="stylesheet" href="./assets/CSS/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+
   <script src="./assets/JS/main.js" type="module"></script>
   <script src="https://kit.fontawesome.com/5f1a52fccc.js" crossorigin="anonymous"></script>
 </head>
@@ -23,10 +29,10 @@
     <i id="navigationToggle" class="header__right fa-solid fa-lg fa-bars"></i>
 
     <nav id="navigation" class="navigation navigation--mobile hidden">
-      <ul class="navigation__links navigation__links--mobile">
-        <li><a href="#">link 1</a></li>
-        <li><a href="#">link 2</a></li>
-        <li><a href="#">link 3</a></li>
+      <ul id="navigationLinks" class="navigation__links navigation__links--mobile">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="#" class="current">About</a></li>
       </ul>
       <div class="navigation__icons">
         <a href="https://twitter.com/" target="_blank">
@@ -39,166 +45,169 @@
     </nav>
   </header>
 
-  <article class="article-container">
-    <h2>About me</h2>
-    <p>This is some text about me and who I am...</p>
-  </article>
-
-  <article class="article-container">
-    <h2>Work experience</h2>
-<!--  -->
-    <article class="article-container about">
-      <section class="about__flex">
-        <h3 class="about__title">
-          Title
-        </h3>
-        <p class="about__workload">
-          Workload
-        </p>
-      </section>
-
-      <section class="about__grid">
-        <span class="about__company"><i class="fa-solid fa-house"></i>
-          &nbsp;Company
-        </span>
-        <span class="about__date"><i class="fa-solid fa-calendar"></i>
-          &nbsp;Date
-        </span>
-        <span class="about__location"><i class="fa-solid fa-location"></i>
-          &nbsp;Location
-        </span>
-      </section>
-      <hr>
-    </article>
-<!--  -->
-    <article class="article-container about">
-      <section class="about__flex">
-        <h3 class="about__title">
-          Title
-        </h3>
-        <p class="about__workload">
-          Workload
-        </p>
-      </section>
-
-      <section class="about__grid">
-        <span class="about__company"><i class="fa-solid fa-house"></i>
-          &nbsp;Company
-        </span>
-        <span class="about__date"><i class="fa-solid fa-calendar"></i>
-          &nbsp;Date
-        </span>
-        <span class="about__location"><i class="fa-solid fa-location"></i>
-          &nbsp;Location
-        </span>
-      </section>
-      <hr>
+  <div class="about-container">
+    <article class="article-container">
+      <h2>About me</h2>
+      <p>This is some text about me and who I am...</p>
     </article>
 
-    <article class="article-container about">
-      <section class="about__flex">
-        <h3 class="about__title">
-          Title
-        </h3>
-        <p class="about__workload">
-          Workload
-        </p>
-      </section>
+    <article class="article-container">
+      <h2>Work experience</h2>
+      <!--  -->
+      <article class="article-container about">
+        <section class="about__flex">
+          <h3 class="about__title">
+            Title
+          </h3>
+          <p class="about__workload">
+            Workload
+          </p>
+        </section>
 
-      <section class="about__grid">
-        <span class="about__company"><i class="fa-solid fa-house"></i>
-          &nbsp;Company
-        </span>
-        <span class="about__date"><i class="fa-solid fa-calendar"></i>
-          &nbsp;Date
-        </span>
-        <span class="about__location"><i class="fa-solid fa-location"></i>
-          &nbsp;Location
-        </span>
-      </section>
-      <hr>
+        <section class="about__grid">
+          <span class="about__company"><i class="fa-solid fa-house"></i>
+            &nbsp;Company
+          </span>
+          <span class="about__date"><i class="fa-solid fa-calendar"></i>
+            &nbsp;Date
+          </span>
+          <span class="about__location"><i class="fa-solid fa-location"></i>
+            &nbsp;Location
+          </span>
+        </section>
+        <hr>
+      </article>
+      <!--  -->
+      <article class="article-container about">
+        <section class="about__flex">
+          <h3 class="about__title">
+            Title
+          </h3>
+          <p class="about__workload">
+            Workload
+          </p>
+        </section>
+
+        <section class="about__grid">
+          <span class="about__company"><i class="fa-solid fa-house"></i>
+            &nbsp;Company
+          </span>
+          <span class="about__date"><i class="fa-solid fa-calendar"></i>
+            &nbsp;Date
+          </span>
+          <span class="about__location"><i class="fa-solid fa-location"></i>
+            &nbsp;Location
+          </span>
+        </section>
+        <hr>
+      </article>
+
+      <article class="article-container about">
+        <section class="about__flex">
+          <h3 class="about__title">
+            Title
+          </h3>
+          <p class="about__workload">
+            Workload
+          </p>
+        </section>
+
+        <section class="about__grid">
+          <span class="about__company"><i class="fa-solid fa-house"></i>
+            &nbsp;Company
+          </span>
+          <span class="about__date"><i class="fa-solid fa-calendar"></i>
+            &nbsp;Date
+          </span>
+          <span class="about__location"><i class="fa-solid fa-location"></i>
+            &nbsp;Location
+          </span>
+        </section>
+        <hr>
+      </article>
     </article>
-  </article>
 
-  <article class="article-container">
-    <h2>Education</h2>
+    <article class="article-container">
+      <h2>Education</h2>
 
-    <article class="article-container about">
-      <section class="about__flex">
-        <h3 class="about__title">
-          Title
-        </h3>
-        <p class="about__workload">
-          Workload
-        </p>
-      </section>
+      <article class="article-container about">
+        <section class="about__flex">
+          <h3 class="about__title">
+            Title
+          </h3>
+          <p class="about__workload">
+            Workload
+          </p>
+        </section>
 
-      <section class="about__grid">
-        <span class="about__company"><i class="fa-solid fa-house"></i>
-          &nbsp;Company
-        </span>
-        <span class="about__date"><i class="fa-solid fa-calendar"></i>
-          &nbsp;Date
-        </span>
-        <span class="about__location"><i class="fa-solid fa-location"></i>
-          &nbsp;Location
-        </span>
-      </section>
-      <hr>
+        <section class="about__grid">
+          <span class="about__company"><i class="fa-solid fa-house"></i>
+            &nbsp;Company
+          </span>
+          <span class="about__date"><i class="fa-solid fa-calendar"></i>
+            &nbsp;Date
+          </span>
+          <span class="about__location"><i class="fa-solid fa-location"></i>
+            &nbsp;Location
+          </span>
+        </section>
+        <hr>
+      </article>
+
+      <article class="article-container about">
+        <section class="about__flex">
+          <h3 class="about__title">
+            Title
+          </h3>
+          <p class="about__workload">
+            Workload
+          </p>
+        </section>
+
+        <section class="about__grid">
+          <span class="about__company"><i class="fa-solid fa-house"></i>
+            &nbsp;Company
+          </span>
+          <span class="about__date"><i class="fa-solid fa-calendar"></i>
+            &nbsp;Date
+          </span>
+          <span class="about__location"><i class="fa-solid fa-location"></i>
+            &nbsp;Location
+          </span>
+        </section>
+        <hr>
+      </article>
+
+      <article class="article-container about">
+        <section class="about__flex">
+          <h3 class="about__title">
+            Title
+          </h3>
+          <p class="about__workload">
+            Workload
+          </p>
+        </section>
+
+        <section class="about__grid">
+          <span class="about__company"><i class="fa-solid fa-house"></i>
+            &nbsp;Company
+          </span>
+          <span class="about__date"><i class="fa-solid fa-calendar"></i>
+            &nbsp;Date
+          </span>
+          <span class="about__location"><i class="fa-solid fa-location"></i>
+            &nbsp;Location
+          </span>
+        </section>
+        <hr>
+      </article>
     </article>
-
-    <article class="article-container about">
-      <section class="about__flex">
-        <h3 class="about__title">
-          Title
-        </h3>
-        <p class="about__workload">
-          Workload
-        </p>
-      </section>
-
-      <section class="about__grid">
-        <span class="about__company"><i class="fa-solid fa-house"></i>
-          &nbsp;Company
-        </span>
-        <span class="about__date"><i class="fa-solid fa-calendar"></i>
-          &nbsp;Date
-        </span>
-        <span class="about__location"><i class="fa-solid fa-location"></i>
-          &nbsp;Location
-        </span>
-      </section>
-      <hr>
-    </article>
-
-    <article class="article-container about">
-      <section class="about__flex">
-        <h3 class="about__title">
-          Title
-        </h3>
-        <p class="about__workload">
-          Workload
-        </p>
-      </section>
-
-      <section class="about__grid">
-        <span class="about__company"><i class="fa-solid fa-house"></i>
-          &nbsp;Company
-        </span>
-        <span class="about__date"><i class="fa-solid fa-calendar"></i>
-          &nbsp;Date
-        </span>
-        <span class="about__location"><i class="fa-solid fa-location"></i>
-          &nbsp;Location
-        </span>
-      </section>
-      <hr>
-    </article>
-  </article>
+  </div>
 
   <footer>
     This brilliant website has been developed by<br>
     <span>Kristoffer Benckert</span>
   </footer>
 </body>
+
 </html>
