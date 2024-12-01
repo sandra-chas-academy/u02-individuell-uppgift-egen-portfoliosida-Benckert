@@ -1,3 +1,6 @@
+# Netlify
+https://kriben-portfolio.netlify.app/
+
 # Sammafattning och reflektion
 Jag har skapat en portfolio som jag i framtiden kommer att kunna använda när jag söker LIA samt arbete efter avslutad utbildning. I Dagsläget är det ganska stramt på innehåll men min tanke är att kontinuerligt bygga vidare på den allt eftersom jag lär mig mer inom Fullstack-utveckling. Jag valde att lägga det mesta av min tid på grupparbetet vi jobbade på parallelt vilket ledde till att jag endast uppfyllde kraven för godkänt. Hade jag planerat bättre skulle jag kunnat ha levererat en mer komplett uppgift. Med det sagt är jag ändå nöjd över vad jag åstakommit, framförallt med tanke på tiden jag allokerat till arbetet.
 
