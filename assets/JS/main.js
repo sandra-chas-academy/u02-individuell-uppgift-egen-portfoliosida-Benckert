@@ -1,6 +1,6 @@
 // Main JS-file, import here
-const navToggle = document.getElementById("nav-toggle");
-const navLinks = document.getElementById("nav-links");
+const navToggle = document.getElementById("navigationToggle");
+const navLinks = document.getElementById("navigationLinks");
 
 navToggle.addEventListener("click", () => {
   navLinks.classList.toggle("hidden");

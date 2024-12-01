@@ -6,7 +6,7 @@ navigation.innerHTML = `
   </div>
 
   <div>
-    <i id="nav-toggle" class="fas fa-bars"></i>
+    <i id="navigationToggle" class="fas fa-bars"></i>
   </div>
   <ul>
     <li><a href="#">link 1</a></li>
