@@ -1,0 +1,23 @@
+{
+  "first": {
+    "title": "Software developement",
+    "workload": "Full time",
+    "company": "Jönköping university",
+    "date": "Aug 2016 - Dec 2018",
+    "location": "Jönköping"
+  },
+  "second": {
+    "title": "CAD-solidmodellering",
+    "workload": "Part time",
+    "company": "Jönköping university",
+    "date": "Feb 2019 - Jun 2020",
+    "location": "Jönköping"
+  },
+  "third": {
+    "title": "World wide information",
+    "workload": "Full time",
+    "company": "Tibble gymnasium",
+    "date": "Aug 2011 - May 2013",
+    "location": "Stockholm"
+  }
+}
