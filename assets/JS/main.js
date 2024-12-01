@@ -2,6 +2,34 @@ const navigation = document.getElementById("navigation");
 const navigationLinks = document.getElementById("navigationLinks");
 const navigationToggle = document.getElementById("navigationToggle");
 
+const headerTitle = document.getElementById("headerTitle");
+let headerTitleCount = 0;
+
+headerTitle.addEventListener("click", () => {
+  let color;
+  headerTitleCount++;
+
+  switch (headerTitleCount) {
+    case 1:
+      color = "var(--color-white)";
+      break;
+    case 2:
+      color = "var(--color-dark-cyan)";
+      break;
+    case 3:
+      color = "var(--color-black)";
+      break;
+    case 4:
+      color = "var(--color-midnight-green)";
+      break;
+  }
+
+  headerTitle.style.color = color;
+
+  if (headerTitleCount === 4)
+    headerTitleCount = 0
+});
+
 navigationToggle.addEventListener("click", toggleNavigation);
 window.addEventListener("resize", toggleNavigationClass);
 
@@ -198,3 +226,4 @@ function loadAbout() {
 
 if (document.title === "Kristoffer Benckert - About")
   loadAbout();
+

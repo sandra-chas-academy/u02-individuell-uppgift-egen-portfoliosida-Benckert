@@ -62,8 +62,19 @@ header {
 }
 
 .header__logo {
+  font-size: 1.25rem;
   height: var(--spacing-lg);
   align-content: center;
+  cursor: default;
+}
+
+#headerTitle {
+  cursor: pointer;
+  user-select: none;
+}
+
+#navigationToggle {
+  cursor: pointer;
 }
 
 .header__right{
