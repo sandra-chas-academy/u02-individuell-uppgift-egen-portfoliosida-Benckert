@@ -11,8 +11,8 @@
 </head>
 
 <body>
-  <nav id="navigation" class="navigation">
-    <span class="navigation__side">
+  <header>
+    <span class="header__logo">
       LOGO
     </span>
 
@@ -20,14 +20,24 @@
       Experience
     </h1>
 
-    <i id="navigationToggle" class="navigation__side fa-solid fa-fw fa-lg fa-bars"></i>
+    <i id="navigationToggle" class="header__right fa-solid fa-lg fa-bars"></i>
 
-    <ul id="navigationLinks" class="navigation__mobile hidden">
-      <li><a href="#">link 1</a></li>
-      <li><a href="#">link 2</a></li>
-      <li><a href="#">link 3</a></li>
-    </ul>
-  </nav>
+    <nav id="navigation" class="navigation navigation--mobile hidden">
+      <ul class="navigation__links navigation__links--mobile">
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
+      </ul>
+      <div class="navigation__icons">
+        <a href="https://twitter.com/" target="_blank">
+          <i class="fa-brands fa-twitter"></i>&nbsp;</a>
+        <a href="https://linkedin.com/" target="_blank">
+          &nbsp;<i class="fa-brands fa-linkedin"></i>&nbsp;</a>
+        <a href="https://github.com/" target="_blank">
+          &nbsp;<i class="fa-brands fa-github"></i></a>
+      </div>
+    </nav>
+  </header>
 
   <article class="article-container">
     <h2>About me</h2>
@@ -94,6 +104,9 @@
     </article>
   </article>
 
-  <footer>This brilliant website has been developed by me, <span>Kristoffer Benckert</span></footer>
+  <footer>
+    This brilliant website has been developed by<br>
+    <span>Kristoffer Benckert</span>
+  </footer>
 </body>
 </html>

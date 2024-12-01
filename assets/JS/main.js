@@ -1,13 +1,13 @@
 // Main JS-file, import here
-const navToggle = document.getElementById("navigationToggle");
-const navLinks = document.getElementById("navigationLinks");
+const navigationToggle = document.getElementById("navigationToggle");
+const navigation = document.getElementById("navigation");
 
-navToggle.addEventListener("click", () => {
-  navLinks.classList.toggle("hidden");
+navigationToggle.addEventListener("click", () => {
+  navigation.classList.toggle("hidden");
   updateToggleIcon();
 });
 
 function updateToggleIcon() {
-  navToggle.classList.toggle("fa-bars");
-  navToggle.classList.toggle("fa-xmark");
+  navigationToggle.classList.toggle("fa-bars");
+  navigationToggle.classList.toggle("fa-xmark");
 }

@@ -28,34 +28,66 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+h1 {
+  font-size: x-large;
+}
+
 /* NAVIGATION */
 
-.navigation {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: var(--spacing-lg);
+
+  /* position: sticky; */
 }
 
-.navigation__side {
+.header__logo,
+.header__side {
   width: 50px;
 }
 
-#navigationLinks {
+.header__side{
+  text-align: end;
+}
+
+.navigation {
+  display: flex;
+  flex-flow: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* height: 100%; */
+  /* padding-bottom: 65%; */
+  gap: var(--spacing-xl);
+}
+
+.navigation--mobile {
   position: absolute;
   top: calc(var(--spacing-sm) + var(--spacing-lg));
   left: 0;
   width: 100%;
   height: calc(100vh - (var(--spacing-sm) + var(--spacing-lg)));
+  padding-top: var(--spacing-xl);
+  background-color: var(--color-white);
 }
 
-.navigation__mobile {
+.navigation__links {
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 65%;
-  background-color: var(--color-white);
+  gap: var(--spacing-sm);
+  font-size: 1.5rem;
+}
+
+.navigation__icons {
+  display: flex;
+  gap: var(--spacing-sm);
+  font-size: 2rem;
 }
 
 /* --- */
