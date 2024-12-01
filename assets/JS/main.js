@@ -191,5 +191,10 @@ function setEducation() {
     </section>`
 }
 
-setWork();
-setEducation();
+function loadAbout() {
+  setWork();
+  setEducation();
+}
+
+if (document.title === "Kristoffer Benckert - About")
+  loadAbout();
