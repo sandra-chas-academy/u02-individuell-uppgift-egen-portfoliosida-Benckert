@@ -1,77 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y0f03qEq)
-# Instruktioner
+# Sammafattning och reflektion
+Jag har skapat en portfolio som jag i framtiden kommer att kunna använda när jag söker LIA samt arbete efter avslutad utbildning. I Dagsläget är det ganska stramt på innehåll men min tanke är att kontinuerligt bygga vidare på den allt eftersom jag lär mig mer inom Fullstack-utveckling. Jag valde att lägga det mesta av min tid på grupparbetet vi jobbade på parallelt vilket ledde till att jag endast uppfyllde kraven för godkänt. Hade jag planerat bättre skulle jag kunnat ha levererat en mer komplett uppgift. Med det sagt är jag ändå nöjd över vad jag åstakommit, framförallt med tanke på tiden jag allokerat till arbetet.
 
-Denna uppgift går ut på att du bygga vidare uppgift u01 - Portfoliosida utifrån designskiss med Javascript. Du är nu fri att ändra till egen design / layout, samt eget innehåll. Det är dock viktigt att du behåller en sektion för CV ("About me") och en sektion med projekt ("Projects") eftersom du ska vidareutveckla sidan med Javascript på dessa sektioner. 
+# Vad kan man utveckla med hjälp av JavaScript inom frontend?
+Med JavaScript kan man skapa funktioner och funktionalitet. Tack vare queryselectors kan man komma åt DOM och manipulera innehåll, stil och beteende direkt. Genom att använda eventlisteners går det att registrera och hantera användarens händelser, som exempelvis ett knapptryck eller resizing av fönstrets storlek, och därefter uppdatera innehållet på sidan utan att behöva ladda om den. Ett annat exempel är en funktion som visar eller döljer en meny vid klick. Via DOMen kan man även manipulera, skapa och ta bort HTML-element och CSS-styling. Det är också via JavaScript som man anropar APIer som exepelvis Fetch.
 
-## Vad du ska göra
+# Vad är JSON och hur används det inom frontend?
+JSON står för JavaScript Object Notation och skrivs som ett objekt i JavaScript, vilket gör det smidigt att arbeta med inom webbutveckling. En förde med JSON över XML är att JSON är lättare för att läsa för oss människor. En av de vanligste användningsområdena för JSON är att kommunicera mellan en webbapplikation och en server. Till exempel kan en webbapplikation skicka en förfrågan till ett API och få tillbaka data i JSON-format.
 
-Du ska bygga vidare på  u01 - Portfoliosida utifrån designskiss med Javascript. och se till att du följer följande kravställningar: 
+JSON används också för att lagra information lokalt i webbläsaren. Genom att konvertera ett JavaScript-objekt till JSON med hjälp av JSON.stringify kan man lagra det i webbläsarens localStorage eller sessionStorage. När man behöver använda datan igen kan man hämta och omvandla den tillbaka till ett JavaScript-objekt med JSON.parse.
 
-### CV i en fil:
-Dina egna utbildningar och tidigare arbetsplatser ska nu ersätta "About me"-sidan. Ta med så mycket som möjligt att ditt "riktiga CV", men iallafall minst tre poster av varje.
-Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format. Denna JSON-fil ska läsas och och generera ditt CV på den tidigare motsvarigheten av "About me" sidan.
+# Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
+HTTP står för Hypertext Transfer Protocol och är grunden för kommunikationen mellan klient och server på webben. När en användare öppnar en webbsida skickar webbläsaren en HTTP-förfrågan till servern, och servern svarar med den data som behövs för att visa sidan, som HTML, CSS, JavaScript och andra resurser.
 
-
-### Interaktiva scripts:
-Din CV-sida ska innehålla minst två interaktiva JavaScript. Exempel kan vara en modal, slideshow, scroll-effekt, dölja/visa element, o.s.v
-
-### Portfolio:
- Du publicerar minst två uppgifter / projekt från tidigare eller nuvarande studier / arbete inom HTML /CSS
-
-### 👉  VG-krav
-
-Din portfolio ska utökas så att den hämtar in publika projekt som finns i din egen Github via API. Den ska visa dessa projekt i din portfolio med namn och beskrivning.
-
-Du får gärna ha både dessa projekt och andra som genereras utifrån JSON-data om du känner för det, eller så ersätter du projekten så det bara är dina Github-projekt. Eventuellt kan du behöva komplettera datan från Github API med t.ex bilder ifrån JSON-datan.
-
-När hämtningen av projekten sker ska det finnas information om att projekten håller på att ladda in så att besökaren inte undrar varför sidan först är tom.
-
-
-
-### Tekniska krav:
-* Validerad med 0 fel på https://validator.w3.org
-* Inga errors i Console
-
-### Sammantfattning av projekt + teoretiska frågor
-
-1. Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
-2. Du svarar på dessa frågor (max 800 ord):
-
-Vad kan man utveckla m.h.a av Javascript inom frontend?
-Vad är JSON och hur används det inom frontend?
-Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
-
-
-## Kriterier för bedömning
-
-
-Icke Godkänd (IG), Godkänd (G) eller Väl Godkänd (VG)
-
-### Godkänd (G)
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen.
-Du visar att du kan utan allvarliga brister eller missar utveckla denna portfoliosida enligt kraven
-Du sammanfattar ditt projekt samt ger ett översiktligt och korrekt svar på frågorna
-
-
-### Väl Godkänd (VG)
-
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen samt VG-kraven
-Du uppvisar en mer avancerad förståelse för Git genom att jobba med en developer-branch som du sedan mergar i main
-Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt märks eller påverkar slutresultatet
-
-
-### Börja uppgift / Din inlämning
-* Du börjar och lämnar in din uppgift genom Github Classroom på denna länk.
-* Återkoppling ges i Canvas
-
-
-
-
-
-
-
-
-
-
-
-# 
+Som frontendutvecklare arbetar man ofta med att hämta och skicka data mellan klienten och servern, till exempel via API:er. För att kunna göra detta effektivt behöver man förstå hur HTTP-requests fungerar. Det finns flera metoder som används vid förfrågningar, som GET för att hämta data eller POST för att skicka data. Det är också bra att kunna hantera svar från servern, som ofta kommer med en statuskod som visar om begäran lyckades eller om det uppstod ett fel.
