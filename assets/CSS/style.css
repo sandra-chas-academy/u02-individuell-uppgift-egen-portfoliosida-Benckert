@@ -41,6 +41,10 @@ h1 {
   font-size: x-large;
 }
 
+.name {
+  color: var(--color-white);
+}
+
 /* NAVIGATION */
 
 header {
