@@ -1,0 +1,23 @@
+{
+  "first": {
+    "title": "Personal assistant",
+    "workload": "Full time",
+    "company": "Assistans i balans",
+    "date": "Jul 2022 - Feb 2024",
+    "location": "Stockholm"
+  },
+  "second": {
+    "title": "Bartender",
+    "workload": "Part time",
+    "company": "Birka bar och bowling",
+    "date": "Jul 2021 - Jun 2022",
+    "location": "Stockholm"
+  },
+  "third": {
+    "title": "Instructor",
+    "workload": "Part time",
+    "company": "Klätterverket",
+    "date": "Aug 2021 - Dec 2022",
+    "location": "Stockholm"
+  }
+}
