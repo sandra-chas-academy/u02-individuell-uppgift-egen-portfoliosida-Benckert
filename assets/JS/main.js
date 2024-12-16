@@ -6,6 +6,8 @@ const headerLogo = document.getElementById("headerLogo");
 const headerTitle = document.getElementById("headerTitle");
 let headerTitleCount = 0;
 
+toggleNavigationClass();
+
 headerLogo.addEventListener("click", () => {
   if (!document.body.classList.contains("index"))
     window.location.href = "index.html";
@@ -232,5 +234,3 @@ function loadAbout() {
 
 if (document.title === "Kristoffer Benckert - About")
   loadAbout();
-
-toggleNavigationClass();
