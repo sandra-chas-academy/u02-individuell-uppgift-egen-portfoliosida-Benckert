@@ -233,3 +233,4 @@ function loadAbout() {
 if (document.title === "Kristoffer Benckert - About")
   loadAbout();
 
+toggleNavigationClass();
