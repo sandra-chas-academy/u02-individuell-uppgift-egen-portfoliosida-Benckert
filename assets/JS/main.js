@@ -2,8 +2,14 @@ const navigation = document.getElementById("navigation");
 const navigationLinks = document.getElementById("navigationLinks");
 const navigationToggle = document.getElementById("navigationToggle");
 
+const headerLogo = document.getElementById("headerLogo");
 const headerTitle = document.getElementById("headerTitle");
 let headerTitleCount = 0;
+
+headerLogo.addEventListener("click", () => {
+  if (!document.body.classList.contains("index"))
+    window.location.href = "index.html";
+})
 
 headerTitle.addEventListener("click", () => {
   let color;

@@ -65,7 +65,7 @@ header {
   font-size: 1.25rem;
   height: var(--spacing-lg);
   align-content: center;
-  cursor: default;
+  cursor: pointer;
 }
 
 #headerTitle {
